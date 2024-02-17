@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+body {
+  background-color: D9D9D9;
+  margin: 0;
+  padding: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px; /* You can remove this if you don't want a fixed width */
+  background-color: rgba(33, 11, 119, 1);
+
+  width: 250px; /* This width is already defined above */
+  height: 934px;
+  left: 11px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link {
   color: white;
+  width: 250px; /* This width seems unnecessary, you can remove it */
+  height: 60px; /* This height seems unnecessary, you can remove it */
+  color: rgba(255, 255, 255, 1);
+  font-family: "sourcesanspro";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-brand {
+  width: 220px;
+  height: 36px;
+
+  color: rgba(0, 0, 0, 1);
+  font-family: "Itim";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.9;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-card {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Itim";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: lowercase;
+  /* Add additional styling as needed */
+}
+
+.table-conatner {
+  width: 992px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.837);
+}
+
+.navber-table {
+  width: 992px;
+  height: 74px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.product-sell {
+  color: rgba(0, 0, 0, 1);
+  font-family: "sourcesanspro";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-box {
+  width: 215px;
+  height: 46px;
+
+  border-radius: 46px;
+  background-color: rgba(177, 178, 181, 1);
+}
+
+.Last-30-day {
+  color: rgba(0, 0, 0, 1);
+  font-family: "sourcesanspro";
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 600;
+  /* line-height: 1.2; */
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  width: 10rem;
+  margin: 10px;
+}
+
+
+.Stock{
+  width: 139px;
+  height: 17px;
+  color: rgba(122, 120, 120, 1);
+  font-family: 'sourcesanspro';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.product-Name{
+  
+  color: rgba(146, 139, 139, 1);
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
 }
